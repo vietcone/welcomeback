@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Đăng nhập</h1>
+    <form id="loginForm">
+        <label for="username">Tên đăng nhập:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Đăng nhập</button>
+    </form>
+    <div id="welcomeMessage" style="display:none;">
+        <h2>Welcome back!</h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
